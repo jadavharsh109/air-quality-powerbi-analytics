@@ -5,6 +5,9 @@ An interactive **Power BI** dashboard designed to visualize and analyze Air Qual
 ## 📊 Project Overview
 The goal of this dashboard is to transform raw environmental data into actionable insights, allowing users to track air quality fluctuations and identify high-pollution zones.
 
+### 📈 Insights Preview
+![AQI Dashboard Screenshot](image.png)
+
 ### Key Features:
 * **Real-time AQI Tracking:** Visualizing the current state of air quality across different regions.
 * **Pollutant Breakdown:** Detailed analysis of $PM_{2.5}$, $PM_{10}$, $NO_2$, and $CO$ levels.
@@ -13,22 +16,17 @@ The goal of this dashboard is to transform raw environmental data into actionabl
 
 ## 🛠️ Tools & Technologies
 * **Power BI Desktop:** Used for data modeling, DAX calculations, and visualization.
-* **Excel / CSV:** Source data (included in the repo as `aqi_cleaned_data.xlsx`).
-* **Power Query:** Used for data cleaning, handling missing values, and data transformation.
+* **Excel / Power Query:** Data cleaning and transformation performed on `aqi_cleaned_data.xlsx`.
 
 ## 📁 Repository Structure
-* `HarshJadav_Aqi_dashboard_Batch7.pbix`: The main Power BI project file.
-* `aqi_cleaned_data.xlsx`: The dataset used for the analysis.
-* `README.md`: Project documentation.
+* **[HarshJadav_Aqi_dashboard_Batch7.pbix](HarshJadav_Aqi_dashboard_Batch7.pbix)**: The main Power BI project file.
+* **[aqi_cleaned_data.xlsx](aqi_cleaned_data.xlsx)**: The dataset used for the analysis.
+* **image.png**: Dashboard preview image.
 
 ## 🚀 How to View the Dashboard
 1. Clone this repository or download the `.pbix` file.
 2. Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 3. Open `HarshJadav_Aqi_dashboard_Batch7.pbix` to explore the interactive reports.
-
-## 📈 Insights Preview
-> **Note:** Add a screenshot of your dashboard here to make your profile stand out! 
-> (Upload an image to your repo and use: `![Dashboard Screenshot](image-link-here)`)
 
 ---
 Developed by [Harsh Jadav](https://github.com/jadavharsh109)
